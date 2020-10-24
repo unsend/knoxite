@@ -6,6 +6,7 @@ require (
 	bazil.org/fuse v0.0.0-20191225233854-3a99aca11732
 	cloud.google.com/go/storage v1.10.0
 	github.com/Azure/azure-storage-file-go v0.8.0
+	github.com/aws/aws-sdk-go v1.35.10
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/dustin/go-humanize v1.0.0
 	github.com/go-ini/ini v1.51.1 // indirect
@@ -24,6 +25,8 @@ require (
 	github.com/muesli/goprogressbar v0.0.0-20200829150239-abc87a99d0c4
 	github.com/muesli/gotable v0.0.0-20190807045009-bcaa6df995ab
 	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d
+	github.com/onsi/ginkgo v1.14.2
+	github.com/onsi/gomega v1.10.3
 	github.com/pelletier/go-toml v1.2.0
 	github.com/pkg/sftp v1.12.0
 	github.com/pquerna/ffjson v0.0.0-20190930134022-aa0246cd15f7 // indirect
@@ -39,8 +42,8 @@ require (
 	github.com/ulikunitz/xz v0.5.8
 	github.com/ungerik/go-dry v0.0.0-20180411133923-654ae31114c8 // indirect
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
-	golang.org/x/net v0.0.0-20200520182314-0ba52f642ac2
-	golang.org/x/sys v0.0.0-20200523222454-059865788121
+	golang.org/x/net v0.0.0-20201006153459-a7d1128ccaa0
+	golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f
 	google.golang.org/api v0.28.0
 	gopkg.in/ini.v1 v1.51.1 // indirect
 	gopkg.in/kothar/go-backblaze.v0 v0.0.0-20191215213626-7594ed38700f
