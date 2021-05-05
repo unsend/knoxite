@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Hello</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div>
+      Dein Access Token ist: <b id="access_token"></b>
+    </div>
+  </body>
+
+  <script>
+   const query = window.location.search.substring(1);
+   const token = query.split('code=')[1].split('&')[0];
+   document.getElementById('access_token').textContent = token;
+  </script>
+</html>

@@ -9,6 +9,7 @@ require (
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/dustin/go-humanize v1.0.0
 	github.com/go-ini/ini v1.51.1 // indirect
+	github.com/goh-chunlin/go-onedrive v1.0.10
 	github.com/google/readahead v0.0.0-20161222183148-eaceba169032 // indirect
 	github.com/jlaffaye/ftp v0.0.0-20200331144919-d4caf6ffcab8
 	github.com/klauspost/compress v1.10.11
@@ -39,9 +40,10 @@ require (
 	github.com/ulikunitz/xz v0.5.8
 	github.com/ungerik/go-dry v0.0.0-20180411133923-654ae31114c8 // indirect
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
-	golang.org/x/net v0.0.0-20200520182314-0ba52f642ac2
-	golang.org/x/sys v0.0.0-20200523222454-059865788121
-	google.golang.org/api v0.28.0
+	golang.org/x/net v0.0.0-20200822124328-c89045814202
+	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
+	golang.org/x/sys v0.0.0-20200803210538-64077c9b5642
+	google.golang.org/api v0.30.0
 	gopkg.in/ini.v1 v1.51.1 // indirect
 	gopkg.in/kothar/go-backblaze.v0 v0.0.0-20191215213626-7594ed38700f
 )

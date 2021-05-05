@@ -9,7 +9,7 @@
  *   For license see LICENSE
  */
 
-package alibaba
+package onedrive
 
 import (
 	"os"
@@ -26,15 +26,15 @@ func TestMain(m *testing.M) {
 	// create a random path suffix to avoid collisions
 	rnd := storage.RandomSuffix()
 
-	alibabaurl := os.Getenv("KNOXITE_ALIBABA_URL")
-	if len(alibabaurl) == 0 {
+	onedriveurl := os.Getenv("KNOXITE_ONEDRIVE_URL")
+	if len(onedriveurl) == 0 {
 		panic("no backend configured")
 	}
 
 	backendTest = &storage.BackendTest{
-		URL:         alibaba + rnd,
-		Protocols:   []string{"alibaba"},
-		Description: "Alibaba Storage",
+		URL:         onedrive + rnd,
+		Protocols:   []string{"onedrive"},
+		Description: "Onedrive Storage",
 		TearDown: func(tb *storage.BackendTest) {
 			// TODO:
 		},
